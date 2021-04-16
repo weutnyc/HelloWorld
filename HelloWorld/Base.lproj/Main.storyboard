@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -16,26 +16,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eZL-RD-Mzz">
-                                <rect key="frame" x="20" y="467" width="374" height="390"/>
-                                <color key="backgroundColor" systemColor="systemPinkColor"/>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cQB-yf-cEa">
-                                <rect key="frame" x="20" y="69" width="374" height="390"/>
+                                <rect key="frame" x="20" y="44" width="374" height="390"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eZL-RD-Mzz">
+                                <rect key="frame" x="20" y="472" width="374" height="390"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eZL-RD-Mzz" secondAttribute="bottom" constant="5" id="Bd8-nT-8xd"/>
-                            <constraint firstItem="eZL-RD-Mzz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="E0I-Dr-IyR"/>
-                            <constraint firstItem="eZL-RD-Mzz" firstAttribute="height" secondItem="cQB-yf-cEa" secondAttribute="height" id="Lvb-K0-cHL"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eZL-RD-Mzz" secondAttribute="trailing" constant="20" id="NZW-9I-i5w"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cQB-yf-cEa" secondAttribute="trailing" constant="20" id="Y9s-Dr-aTF"/>
-                            <constraint firstItem="cQB-yf-cEa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="c2q-CM-W9O"/>
-                            <constraint firstItem="cQB-yf-cEa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="lYT-uR-BJ0"/>
-                            <constraint firstItem="eZL-RD-Mzz" firstAttribute="top" secondItem="cQB-yf-cEa" secondAttribute="bottom" constant="8" symbolic="YES" id="oFC-ss-axA"/>
+                            <constraint firstItem="cQB-yf-cEa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="00l-QM-SRX"/>
+                            <constraint firstItem="eZL-RD-Mzz" firstAttribute="top" secondItem="cQB-yf-cEa" secondAttribute="bottom" constant="38" id="0r9-gZ-avF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cQB-yf-cEa" secondAttribute="trailing" constant="20" id="1uW-7s-R7o"/>
+                            <constraint firstItem="cQB-yf-cEa" firstAttribute="width" secondItem="eZL-RD-Mzz" secondAttribute="height" multiplier="187:195" id="4KS-iO-FHN"/>
+                            <constraint firstItem="eZL-RD-Mzz" firstAttribute="height" secondItem="cQB-yf-cEa" secondAttribute="height" id="4ZV-a2-Js4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eZL-RD-Mzz" secondAttribute="trailing" constant="20" id="GK5-6p-rTf"/>
+                            <constraint firstItem="eZL-RD-Mzz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="IFa-tW-3ZV"/>
+                            <constraint firstItem="cQB-yf-cEa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="j0V-qH-AnE"/>
+                            <constraint firstItem="eZL-RD-Mzz" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="v7y-op-wak"/>
                         </constraints>
                     </view>
                 </viewController>
